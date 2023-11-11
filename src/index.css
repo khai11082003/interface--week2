@@ -1,13 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Plus+Jakarta+Sans:wght@500&display=swap');
+@import url('styles/global.scss');
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body { 
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
+*{
+  box-sizing: border-box;
+}
+.main-container{
+  width: 380px;
+  height: 705px;
+  background-color: var(--text-black-primary);
+}
+:root {
+  --text-yellow-primary: #DFB53C;
+  --button-primary: #DFB53C;
+  --text-orange-primary: #C36027;
+  --text-red-primary: #FF0000;
+  --text-blue-primary: #0C95F8;
+  --text-black-primary: #141010;
+  --text-gray-primary: #5C5C5C;
+  --background-color: #242424;
+  --background-header-color: #333333;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.ant-dropdown-trigger .ant-space-item span svg {
+  width: 10px;
+  height: 10px;
+}
+.one{
+  color: #141010;
 }
